@@ -24,12 +24,16 @@ if(options.length == 0) {
     if(dirOrFile.length == 0) {
         console.log(error)
     }else {
-        dirOrFile.forEach(val => {
-            let pth = join(process.cwd(), val);
-            if(!existsSync(pth)) {
-                writeFileSync(pth, "");
-            }
-        });
+        try {
+            dirOrFile.forEach(val => {
+                let pth = join(process.cwd(), val);
+                if(!existsSync(pth)) {
+                    writeFileSync(pth, "");
+                }
+            });
+        }catch(e) {
+            console.log(e.message)
+        }
     }
 }else {
     console.log(error);
