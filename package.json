@@ -1,0 +1,23 @@
+{
+  "name": "@suryapratapsinghsuryavanshi/touch",
+  "version": "0.0.1",
+  "description": "I'm a developer who regularly switches with multiple operating systems but in Windows, I seem to be missing a command. There are `touch` commands to create an empty file.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suryapratapsinghsuryavanshi/touch.git"
+  },
+  "keywords": [
+    "touch",
+    "touch(1)"
+  ],
+  "author": "Suryapratap Singh Suryavanshi <suryprtaps@gmail.com> (https://github.com/suryapratapsinghsuryavanshi)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suryapratapsinghsuryavanshi/touch/issues"
+  },
+  "homepage": "https://github.com/suryapratapsinghsuryavanshi/touch#readme",
+  "bin": {
+    "touch": "index.js"
+  }
+}
