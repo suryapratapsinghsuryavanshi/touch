@@ -19,5 +19,8 @@
   "homepage": "https://github.com/suryapratapsinghsuryavanshi/touch#readme",
   "bin": {
     "touch": "index.js"
+  },
+  "dependencies": {
+    "solverjs": "^4.0.5"
   }
 }
